@@ -1,11 +1,13 @@
 import React from 'react'
 class Counter extends React.Component{
+    
     constructor(){
         super();
         this.state={
        value:0
         }
-
+        
+      
         this.Increament=this.Increament.bind(this)
         this.Decreament=this.Decreament.bind(this)
     }
